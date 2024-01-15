@@ -127,7 +127,7 @@
                 </section><!--//section-->
 
 
-		<style>
+		    <style>
 		    /* Estilo para el recuadro blanco */
 		    .white-box {
 		        background-color: #ffffff; /* Color blanco */
@@ -136,8 +136,19 @@
 		        padding: 20px; /* Espaciado interno del recuadro */
 		        box-shadow: none; /* Sin sombra */
 		    }
+		
+		    /* Estilo para alinear la imagen y el texto */
+		    .item.row {
+		        display: flex;
+		        align-items: center;
+		    }
+		
+		    .project-image {
+		        max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
+		        margin-right: 20px; /* Espaciado entre la imagen y el texto */
+		    }
 		</style>
-
+		
 		<section class="Others white-box">
 		    <div class="section-inner">
 		        <h2 class="heading">Others</h2>
@@ -145,13 +156,13 @@
 		
 		            <!-- Primer elemento con imagen pequeña al lado del texto -->
 		            <div class="item row">
-		                <div class="col-md-4 col-12" >
-		                    <img class="img-fluid project-image rounded" src="assets/images/projects/project-1.png" alt="project name" />
-	
+		                <div class="col-md-4 col-12">
+		                    <img class="img-fluid project-image rounded" src="assets/images/projects/pfoto.jpg" alt="project name" />
+		                </div>
 		                <div class="desc col-md-8 col-12">
 		                    <h3 class="title">Joy Dancing Beijing, Joy Dancing Dalian &amp; Joy Dancing Panjin Festival </h3>
 		                    <p class="mb-2">Part of the Peruvian team on international dancing festivals in China as a member of the Juan XXIII dancing team. </p>
-		                    <p><a class="more-link" href="https://issuu.com/boletinj23/docs/revistaj23.22"></i>More info on pg 33-35</a></p>
+		                    <p><a class="more-link" href="https://issuu.com/boletinj23/docs/revistaj23.22" target="_blank"><i class="fas fa-external-link-alt"></i>More info on pg 33-35</a></p>
 		                </div><!--//desc-->
 		            </div><!--//item-->
 		
@@ -160,7 +171,6 @@
 		</section><!--//section-->
 
 
-                
             </div><!--//primary-->
             <div class="secondary col-lg-4 col-12">
                  <aside class="info aside section">
